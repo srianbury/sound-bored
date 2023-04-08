@@ -44,7 +44,7 @@ function Header() {
 function Footer() {
   return (
     <div className="p-2">
-      <h3>That shit's important!</h3>
+      <h3>That shit&#39;s important!</h3>
     </div>
   );
 }
