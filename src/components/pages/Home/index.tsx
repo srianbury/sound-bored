@@ -80,11 +80,6 @@ async function playSoundAndWait(audio: HTMLAudioElement) {
   });
 }
 
-enum CopiedStatus {
-  None,
-  Success,
-  Error,
-}
 type SoundByteProps = {
   sound: Sound;
 };
