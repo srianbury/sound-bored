@@ -13,8 +13,7 @@ type Sound = {
 const sounds: Sound[] = [
   {
     title: "Tim Allen Huh Grunt",
-    soundSrc:
-      "https://www.myinstants.com/media/sounds/tim-allens-home-improvement-grunt.mp3",
+    soundSrc: "/assets/sounds/tim-allens-home-improvement-grunt.mp3",
     imageSrc: "https://i.ytimg.com/vi/KnsiZOJjfUg/mqdefault.jpg",
   },
   {
@@ -70,6 +69,54 @@ const sounds: Sound[] = [
       "https://www.myinstants.com/media/sounds/why-dont-you-cry-about-it.mp3",
     imageSrc:
       "https://media.tenor.com/C5qJx8PfKCEAAAAC/jim-carrey-ace-ventura.gif",
+  },
+  {
+    title: "Are you having a laugh?",
+    soundSrc: "/assets/sounds/are-you-having-a-laugh.mp3",
+    imageSrc: "/assets/images/are-you-having-a-laugh.png",
+  },
+  {
+    title: "Ayo! Maggots!",
+    soundSrc: "/assets/sounds/ayo-maggots.mp3",
+    imageSrc: "/assets/images/ayo-maggots.png",
+  },
+  {
+    title: "damn!",
+    soundSrc: "/assets/sounds/damn.mp3",
+  },
+  {
+    title: "Disappointed!",
+    soundSrc: "/assets/sounds/disappointed.mp3",
+    imageSrc: "/assets/images/disappointed.png",
+  },
+  {
+    title: "doo-doo",
+    soundSrc: "/assets/sounds/doo-doo.mp3",
+    imageSrc: "/assets/images/doo-doo.png",
+  },
+  {
+    title: "Friendship",
+    soundSrc: "/assets/sounds/friendship.mp3",
+    imageSrc: "/assets/images/friendship.png",
+  },
+  {
+    title: "fuck it!",
+    soundSrc: "/assets/sounds/fuck-it.mp3",
+  },
+  {
+    title: "good luck",
+    soundSrc: "/assets/sounds/good-luck.mp3",
+    imageSrc: "/assets/images/good-luck.png",
+  },
+  {
+    title: "good luck",
+    soundSrc: "/assets/sounds/hated-it.mp3",
+    imageSrc: "/assets/images/hated-it.png",
+  },
+  {
+    title: "Mrs. Doubtfire Hello!",
+    soundSrc: "/assets/sounds/doubtfire-hello.mp3",
+    imageSrc: "/assets/images/doubtfire-hello.png",
   },
 ];
 
