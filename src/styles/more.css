@@ -1,0 +1,31 @@
+.copy-button {
+    padding: 2px;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.p-2 {
+    padding: 20px
+}
