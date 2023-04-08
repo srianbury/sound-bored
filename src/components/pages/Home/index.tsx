@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy } from "@fortawesome/free-solid-svg-icons";
 import { toast } from "react-toastify";
@@ -14,61 +15,52 @@ const sounds: Sound[] = [
   {
     title: "Tim Allen Huh Grunt",
     soundSrc: "/assets/sounds/tim-allens-home-improvement-grunt.mp3",
-    imageSrc: "https://i.ytimg.com/vi/KnsiZOJjfUg/mqdefault.jpg",
+    imageSrc: "/assets/images/tim-allen-huh-grunt.jpg",
   },
   {
     title: "oohwahahahah",
-    soundSrc:
-      "https://www.myinstants.com/media/sounds/david-oohwahahahah-1.mp3",
-    imageSrc: "https://upload.wikimedia.org/wikipedia/en/a/a2/TheSickness.jpg",
+    soundSrc: "/assets/sounds/oohwahahahah.mp3",
+    imageSrc: "/assets/images/oohwahahahah.jpg",
   },
   {
     title: "Okayyyy, let's go",
-    soundSrc: "https://www.myinstants.com/media/sounds/okeyyy-lets-go.mp3",
-    imageSrc: "https://media.tenor.com/kA9FRdP2JU4AAAAd/okay-lets.gif",
+    soundSrc: "/assets/sounds/okeyyy-lets-go.mp3",
+    imageSrc: "/assets/images/okeyyy-lets-go.gif",
   },
   {
     title: "Diarrhea!",
-    soundSrc: "https://www.myinstants.com/media/sounds/dee-to-the-ree-mp3.mp3",
-    imageSrc: "https://pbs.twimg.com/media/ETzP4SUUYAE0Ak1.jpg",
+    soundSrc: "/assets/sounds/diarrhea.mp3",
+    imageSrc: "/assets/images/diarrhea.jpg",
   },
   {
     title: "Allllrighty then",
-    soundSrc:
-      "https://www.myinstants.com/media/sounds/alrighty-then_mAGSIzC.mp3",
-    imageSrc:
-      "https://media.tenor.com/SKx34KvhMkwAAAAM/alright-then-ace-ventura.gif",
+    soundSrc: "/assets/sounds/alrighty-then.mp3",
+    imageSrc: "/assets/images/alrighty-then.gif",
   },
   {
     title: "It's a bagel",
-    soundSrc: "https://www.myinstants.com/media/sounds/its-a-bagel.mp3",
-    imageSrc:
-      "https://d3p8a4j2.rocketcdn.me/wp-content/uploads/2022/07/Blake-Anderson-Its-A-Bagel.png",
+    soundSrc: "/assets/sounds/its-a-bagel.mp3",
+    imageSrc: "/assets/images/its-a-bagel.png",
   },
   {
     title: "That's a huge b*tch",
-    soundSrc: "https://www.myinstants.com/media/sounds/huge-bitch.mp3",
-    imageSrc:
-      "https://i.pinimg.com/564x/08/ed/97/08ed97c6ff434c4bb5c19fbd38e5a012.jpg",
+    soundSrc: "/assets/sounds/huge-bitch.mp3",
+    imageSrc: "/assets/images/huge-bitch.jpg",
   },
   {
     title: "Wake up!",
-    soundSrc: "https://www.myinstants.com/media/sounds/wake-up_42uLTpb.mp3",
-    imageSrc:
-      "https://townsquare.media/site/366/files/2018/06/System-of-a-Down-Chop-Suey.jpg?w=600&h=0&zc=1&s=0&a=t&q=89",
+    soundSrc: "/assets/sounds/wake-up.mp3",
+    imageSrc: "/assets/images/wake-up.jpg",
   },
   {
     title: "Trojan Man!",
-    soundSrc: "https://www.myinstants.com/media/sounds/trojanman.mp3",
-    imageSrc:
-      "https://static-prod.adweek.com/wp-content/uploads/2018/08/trojan-man-bigsexy-PAGE-2018.jpg",
+    soundSrc: "/assets/sounds/trojan-man.mp3",
+    imageSrc: "/assets/images/trojan-man.jpg",
   },
   {
     title: "Well why don't you cry about it?",
-    soundSrc:
-      "https://www.myinstants.com/media/sounds/why-dont-you-cry-about-it.mp3",
-    imageSrc:
-      "https://media.tenor.com/C5qJx8PfKCEAAAAC/jim-carrey-ace-ventura.gif",
+    soundSrc: "/assets/sounds/why-dont-you-cry-about-it.mp3",
+    imageSrc: "/assets/images/why-dont-you-cry-about-it.gif",
   },
   {
     title: "Are you having a laugh?",
@@ -122,6 +114,11 @@ const sounds: Sound[] = [
     title: "I'm so fuckin hungry",
     soundSrc: "/assets/sounds/im-so-fuckin-hungry.mp3",
     imageSrc: "/assets/images/im-so-fuckin-hungry.jpg",
+  },
+  {
+    title: "Fuckin thing sucks!",
+    soundSrc: "/assets/sounds/fuckin-thing-sucks.mp3",
+    imageSrc: "/assets/images/fuckin-thing-sucks.png",
   },
   { title: "HoldUp", soundSrc: "/assets/sounds/HoldUp.mp3" },
   {
@@ -268,18 +265,15 @@ function PlaySoundButton({
         padding: "0px",
       }}
     >
-      <img
+      <Image
         className="is-rounded circle-image"
-        height="100px"
-        width="100px"
+        height={100}
+        width={100}
         style={{
           objectFit: "cover",
           border: playing ? "10px solid red" : "none",
         }}
-        src={
-          imageSrc ||
-          "https://yt3.googleusercontent.com/wwzTo5z0HXjfOtDP-qNAO06UQvAZQkHDBKGA6k2VrfT4J8P_KVQCUpkcazwuqfbdOxNDK6rLNw=s176-c-k-c0x00ffffff-no-rj"
-        }
+        src={imageSrc || "/assets/images/tii.jpeg"}
         alt={title}
       />
     </button>
