@@ -109,7 +109,7 @@ const sounds: Sound[] = [
     imageSrc: "/assets/images/good-luck.png",
   },
   {
-    title: "good luck",
+    title: "hated it!",
     soundSrc: "/assets/sounds/hated-it.mp3",
     imageSrc: "/assets/images/hated-it.png",
   },
@@ -201,7 +201,9 @@ function TitleWithCopy({ title, soundSrc, playSound }: TitleWithCopyProps) {
     playSound();
 
     if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(soundSrc);
+      const mp3Url =
+        soundSrc[0] === "/" ? `${window.location.origin}${soundSrc}` : soundSrc;
+      navigator.clipboard.writeText(mp3Url);
       toast.success("Sound URL copied to your clipboard!");
     } else {
       toast.error("Sorry! The sound could not be copied to your clipboard.");
