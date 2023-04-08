@@ -124,7 +124,6 @@ function PlaySoundButton({
       onClick={playSound}
       style={{
         padding: "0px",
-        border: playing ? "10px solid red" : "5px solid transparent",
       }}
     >
       <img
@@ -133,6 +132,7 @@ function PlaySoundButton({
         width="100px"
         style={{
           objectFit: "cover",
+          border: playing ? "10px solid red" : "none",
         }}
         src={
           imageSrc ||
