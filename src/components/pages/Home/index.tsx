@@ -118,6 +118,11 @@ const sounds: Sound[] = [
     soundSrc: "/assets/sounds/doubtfire-hello.mp3",
     imageSrc: "/assets/images/doubtfire-hello.png",
   },
+  {
+    title: "I'm so fuckin hungry",
+    soundSrc: "/assets/sounds/im-so-fuckin-hungry.mp3",
+    imageSrc: "/assets/images/im-so-fuckin-hungry.jpg",
+  },
   { title: "HoldUp", soundSrc: "/assets/sounds/HoldUp.mp3" },
   {
     title: "HomeImprovementGrunt",
