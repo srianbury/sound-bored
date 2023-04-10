@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy } from "@fortawesome/free-solid-svg-icons";
 import { toast } from "react-toastify";
 import { Sound } from "./types";
-import { data } from "./data";
+import { getStaticProps } from "./getStaticProps";
 
 async function playSoundAndWait(audio: HTMLAudioElement) {
   return new Promise((res) => {
@@ -103,18 +103,14 @@ function TitleWithCopy({ title, soundSrc, playSound }: TitleWithCopyProps) {
   );
 }
 
-function sortByTitle(a: Sound, b: Sound) {
-  const aLowerTitle = a.title.toLowerCase();
-  const bLowerTitle = b.title.toLowerCase();
-
-  return aLowerTitle > bLowerTitle ? 1 : aLowerTitle < bLowerTitle ? -1 : 0;
-}
-
-function Home() {
+type HomeProps = {
+  sounds: Sound[];
+};
+function Home({ sounds }: HomeProps) {
   return (
     <div className="container">
       <div className="row">
-        {data.sort(sortByTitle).map((sound) => (
+        {sounds.map((sound) => (
           <div
             className="col-12 col-6-xs col-4-sm col-3-md col-2-lg text-center"
             style={{
@@ -130,4 +126,5 @@ function Home() {
   );
 }
 
-export { Home };
+export { Home, getStaticProps };
+export type { Sound };

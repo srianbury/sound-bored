@@ -1,2 +1,3 @@
-import { Home } from "@/components/pages";
+import { Home, getStaticProps } from "@/components/pages/Home";
 export default Home;
+export { getStaticProps };
