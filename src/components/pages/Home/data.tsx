@@ -1,4 +1,4 @@
-import { Sound } from "./types";
+import { Sound } from ".";
 
 const data: Sound[] = [
   {
@@ -48,7 +48,7 @@ const data: Sound[] = [
   },
   {
     title: "Well why don't you cry about it?",
-    soundSrc: "/assets/sounds/why-dont-you-cry-about-it.mp3",
+    soundSrc: "/assets/sounds/WellWhyDontYouCryAboutIt.mp3",
     imageSrc: "/assets/images/why-dont-you-cry-about-it.gif",
   },
   {
@@ -110,10 +110,6 @@ const data: Sound[] = [
     imageSrc: "/assets/images/fuckin-thing-sucks.png",
   },
   { title: "HoldUp", soundSrc: "/assets/sounds/HoldUp.mp3" },
-  {
-    title: "HomeImprovementGrunt",
-    soundSrc: "/assets/sounds/HomeImprovementGrunt.mp3",
-  },
   { title: "Hot Hot Hot", soundSrc: "/assets/sounds/HotHotHot.mp3" },
   {
     title: "Huge Fuckin Boner",
@@ -134,12 +130,11 @@ const data: Sound[] = [
   { title: "Im So Excited", soundSrc: "/assets/sounds/ImSoExcited.mp3" },
   { title: "Im Sorry Momma", soundSrc: "/assets/sounds/ImSorryMomma.mp3" },
   { title: "Is It Real", soundSrc: "/assets/sounds/IsItReal.mp3" },
-  { title: "Its A Bagel", soundSrc: "/assets/sounds/ItsABagel.mp3" },
   { title: "Its The Best", soundSrc: "/assets/sounds/ItsTheBest.mp3" },
   { title: "Know What I Mean", soundSrc: "/assets/sounds/KnowWhatIMean.mp3" },
   { title: "Kyle Betrayed Me", soundSrc: "/assets/sounds/KyleBetrayedMe.mp3" },
   { title: "Lets A Go", soundSrc: "/assets/sounds/LetsAGo.mp3" },
-  { title: "Lets Go", soundSrc: "/assets/sounds/LetsGo.mp3" },
+  { title: "Let's GEAUX", soundSrc: "/assets/sounds/LetsGo.mp3" },
   {
     title: "Living In A Nightmare",
     soundSrc: "/assets/sounds/LivingInANightmare.mp3",
@@ -178,12 +173,7 @@ const data: Sound[] = [
   },
   { title: "Thank You God", soundSrc: "/assets/sounds/ThankYouGod.mp3" },
   { title: "Thats Life", soundSrc: "/assets/sounds/ThatsLife.mp3" },
-  { title: "TrojanM an", soundSrc: "/assets/sounds/TrojanMan.mp3" },
   { title: "Weird Wild Stuff", soundSrc: "/assets/sounds/WeirdWildStuff.mp3" },
-  {
-    title: "Well Why Dont You Cry About It",
-    soundSrc: "/assets/sounds/WellWhyDontYouCryAboutIt.mp3",
-  },
   { title: "Were Back", soundSrc: "/assets/sounds/WereBack.mp3" },
   { title: "Winning", soundSrc: "/assets/sounds/Winning.mp3" },
   { title: "Yeah", soundSrc: "/assets/sounds/Yeah.mp3" },
