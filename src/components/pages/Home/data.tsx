@@ -1,5 +1,9 @@
 import { Sound } from ".";
 
+function getImagePath(image: string): string {
+  return `/assets/images/${image}`;
+}
+
 const data: Sound[] = [
   {
     title: "Tim Allen Huh Grunt",
@@ -109,31 +113,86 @@ const data: Sound[] = [
     soundSrc: "/assets/sounds/fuckin-thing-sucks.mp3",
     imageSrc: "/assets/images/fuckin-thing-sucks.png",
   },
-  { title: "HoldUp", soundSrc: "/assets/sounds/HoldUp.mp3" },
-  { title: "Hot Hot Hot", soundSrc: "/assets/sounds/HotHotHot.mp3" },
+  {
+    title: "Hold Up",
+    soundSrc: "/assets/sounds/HoldUp.mp3",
+    imageSrc: "/assets/images/holdup.png",
+  },
+  {
+    title: "Hot Hot Hot",
+    soundSrc: "/assets/sounds/HotHotHot.mp3",
+    imageSrc: "/assets/images/hothothothot.png",
+  },
   {
     title: "Huge Fuckin Boner",
     soundSrc: "/assets/sounds/HugeFuckinBoner.mp3",
+    imageSrc: "/assets/images/igotahugebonerrightnow.jpg",
   },
   {
     title: "I Can't Stop Eating",
     soundSrc: "/assets/sounds/ICantStopEating.mp3",
+    imageSrc: "/assets/images/icantstopeating.png",
   },
   {
     title: "I Don't Give A Fuck",
     soundSrc: "/assets/sounds/IDontGiveAFuck.mp3",
+    imageSrc: "/assets/images/idontgiveafuck.png",
   },
-  { title: "I Love It", soundSrc: "/assets/sounds/ILoveIt.mp3" },
-  { title: "I Still Love You", soundSrc: "/assets/sounds/IStillLoveYou.mp3" },
-  { title: "I'm A Man", soundSrc: "/assets/sounds/ImAMan.mp3" },
-  { title: "I'm Pissed Now", soundSrc: "/assets/sounds/ImPissedNow.mp3" },
-  { title: "I'm So Excited", soundSrc: "/assets/sounds/ImSoExcited.mp3" },
-  { title: "I'm Sorry Momma", soundSrc: "/assets/sounds/ImSorryMomma.mp3" },
-  { title: "Is It Real", soundSrc: "/assets/sounds/IsItReal.mp3" },
-  { title: "It's The Best", soundSrc: "/assets/sounds/ItsTheBest.mp3" },
-  { title: "Know What I Mean", soundSrc: "/assets/sounds/KnowWhatIMean.mp3" },
-  { title: "Kyle Betrayed Me", soundSrc: "/assets/sounds/KyleBetrayedMe.mp3" },
-  { title: "Let's A Go", soundSrc: "/assets/sounds/LetsAGo.mp3" },
+  {
+    title: "I Love It",
+    soundSrc: "/assets/sounds/ILoveIt.mp3",
+    imageSrc: "/assets/images/iloveit.png",
+  },
+  {
+    title: "I Still Love You",
+    soundSrc: "/assets/sounds/IStillLoveYou.mp3",
+    imageSrc: "/assets/images/istillloveyou.gif",
+  },
+  {
+    title: "I'm A Man",
+    soundSrc: "/assets/sounds/ImAMan.mp3",
+    imageSrc: "/assets/images/imaman.jpg",
+  },
+  {
+    title: "I'm Pissed Now",
+    soundSrc: "/assets/sounds/ImPissedNow.mp3",
+    imageSrc: "/assets/images/impissednow.png",
+  },
+  {
+    title: "I'm So Excited",
+    soundSrc: "/assets/sounds/ImSoExcited.mp3",
+    imageSrc: "/assets/images/imsoexcited.jpg",
+  },
+  {
+    title: "I'm Sorry Momma",
+    soundSrc: "/assets/sounds/ImSorryMomma.mp3",
+    imageSrc: "/assets/images/imsorrymama.jpg",
+  },
+  {
+    title: "Is It Real",
+    soundSrc: "/assets/sounds/IsItReal.mp3",
+    imageSrc: getImagePath("isitreal.png"),
+  },
+  {
+    title: "It's The Best",
+    soundSrc: "/assets/sounds/ItsTheBest.mp3",
+    imageSrc: getImagePath("itsthebest.gif"),
+  },
+  {
+    title: "Know What I Mean",
+    soundSrc: "/assets/sounds/KnowWhatIMean.mp3",
+    imageSrc: getImagePath("knowwhatimean.png"),
+  },
+  {
+    title: "Kyle Betrayed Me",
+    soundSrc: "/assets/sounds/KyleBetrayedMe.mp3",
+    imageSrc: getImagePath("kylebetrayedme.jpg"),
+  },
+  {
+    title: "Let's A Go",
+    soundSrc: "/assets/sounds/LetsAGo.mp3",
+    imageSrc: getImagePath("letsago.jpg"),
+  },
   { title: "Let's GEAUX", soundSrc: "/assets/sounds/LetsGo.mp3" },
   {
     title: "Living In A Nightmare",
@@ -188,6 +247,11 @@ const data: Sound[] = [
   {
     title: "You're Not That Guy Pal",
     soundSrc: "/assets/sounds/YoureNotThatGuyPal.mp3",
+  },
+  {
+    title: "WPAP!",
+    soundSrc: "/assets/sounds/wpap.mp3",
+    imageSrc: "/assets/images/wpap.gif",
   },
 ];
 
