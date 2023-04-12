@@ -164,8 +164,8 @@ const data: Sound[] = [
     imageSrc: "/assets/images/imsoexcited.jpg",
   },
   {
-    title: "I'm Sorry Momma",
-    soundSrc: "/assets/sounds/ImSorryMomma.mp3",
+    title: "I'm Sorry Mama",
+    soundSrc: "/assets/sounds/ImSorryMama.mp3",
     imageSrc: "/assets/images/imsorrymama.jpg",
   },
   {
