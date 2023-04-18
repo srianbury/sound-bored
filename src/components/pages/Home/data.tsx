@@ -1,7 +1,11 @@
 import { Sound } from ".";
 
-function getImagePath(image: string): string {
-  return `/assets/images/${image}`;
+function getImageSrc(filename: string): string {
+  return `/assets/images/${filename}`;
+}
+
+function getSoundSrc(filename: string): string {
+  return `/assets/sounds/${filename}`;
 }
 
 const data: Sound[] = [
@@ -171,27 +175,27 @@ const data: Sound[] = [
   {
     title: "Is It Real",
     soundSrc: "/assets/sounds/IsItReal.mp3",
-    imageSrc: getImagePath("isitreal.png"),
+    imageSrc: getImageSrc("isitreal.png"),
   },
   {
     title: "It's The Best",
     soundSrc: "/assets/sounds/ItsTheBest.mp3",
-    imageSrc: getImagePath("itsthebest.gif"),
+    imageSrc: getImageSrc("itsthebest.gif"),
   },
   {
     title: "Know What I Mean",
     soundSrc: "/assets/sounds/KnowWhatIMean.mp3",
-    imageSrc: getImagePath("knowwhatimean.png"),
+    imageSrc: getImageSrc("knowwhatimean.png"),
   },
   {
     title: "Kyle Betrayed Me",
     soundSrc: "/assets/sounds/KyleBetrayedMe.mp3",
-    imageSrc: getImagePath("kylebetrayedme.jpg"),
+    imageSrc: getImageSrc("kylebetrayedme.jpg"),
   },
   {
     title: "Let's A Go",
     soundSrc: "/assets/sounds/LetsAGo.mp3",
-    imageSrc: getImagePath("letsago.jpg"),
+    imageSrc: getImageSrc("letsago.jpg"),
   },
   { title: "Let's GEAUX", soundSrc: "/assets/sounds/LetsGo.mp3" },
   {
@@ -252,6 +256,16 @@ const data: Sound[] = [
     title: "WPAP!",
     soundSrc: "/assets/sounds/wpap.mp3",
     imageSrc: "/assets/images/wpap.gif",
+  },
+  {
+    title: "Allegedly!",
+    soundSrc: getSoundSrc("allegedly.mp3"),
+    imageSrc: getImageSrc("allegedly.png"),
+  },
+  {
+    title: "Nekkid Grandma",
+    soundSrc: getSoundSrc("nekkid-grandma.mp3"),
+    imageSrc: getImageSrc("nekkid-grandma.gif"),
   },
 ];
 
