@@ -267,6 +267,11 @@ const data: Sound[] = [
     soundSrc: getSoundSrc("nekkid-grandma.mp3"),
     imageSrc: getImageSrc("nekkid-grandma.gif"),
   },
+  {
+    title: "yeah baby!",
+    soundSrc: getSoundSrc("yeah-baby.mp3"),
+    imageSrc: getImageSrc("yeah-baby.gif"),
+  },
 ];
 
 export { data };
