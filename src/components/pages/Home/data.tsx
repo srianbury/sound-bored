@@ -273,6 +273,16 @@ const data: Sound[] = [
     soundSrc: getSoundSrc("yeah-baby.mp3"),
     imageSrc: getImageSrc("yeah-baby.gif"),
   },
+  {
+    title: "larry king - tight butthole",
+    soundSrc: getSoundSrc("tight-butthole-larry-king.mp3"),
+    imageSrc: getImageSrc("larry-king-tight-butthole.jpg"),
+  },
+  {
+    title: "larry king - loose butthole",
+    soundSrc: getSoundSrc("loose-butthole-larry-king.mp3"),
+    imageSrc: getImageSrc("larry-king-loose-butthole.jpg"),
+  },
 ];
 
 export { data };
