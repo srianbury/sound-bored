@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { ToastContainer } from "react-toastify";
 
@@ -33,6 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
           </main>
         </div>
       </div>
+      <Analytics />
     </>
   );
 }
