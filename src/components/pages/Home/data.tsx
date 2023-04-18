@@ -201,6 +201,7 @@ const data: Sound[] = [
   {
     title: "Living In A Nightmare",
     soundSrc: "/assets/sounds/LivingInANightmare.mp3",
+    imageSrc: getImageSrc("living-in-a-nightmare.png"),
   },
   { title: "No", soundSrc: "/assets/sounds/No.mp3" },
   { title: "Notice Me Senpai", soundSrc: "/assets/sounds/NoticeMeSenpai.mp3" },
