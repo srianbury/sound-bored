@@ -283,6 +283,16 @@ const data: Sound[] = [
     soundSrc: getSoundSrc("loose-butthole-larry-king.mp3"),
     imageSrc: getImageSrc("larry-king-loose-butthole.jpg"),
   },
+  {
+    title: "arnold - fuck you asshole",
+    soundSrc: getSoundSrc("fuck-you-ass-hole.mp3"),
+    imageSrc: getImageSrc("arnold-fuck-you-asshole.png"),
+  },
+  {
+    title: "69 dudes!",
+    soundSrc: getSoundSrc("sixty-nine-dudes.mp3"),
+    imageSrc: getImageSrc("sixty-nine-dudes.png"),
+  },
 ];
 
 export { data };
