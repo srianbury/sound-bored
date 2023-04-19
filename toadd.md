@@ -1,8 +1,5 @@
 [ ] Yummy https://youtu.be/Qcx3fcNlnSM?t=31
-[ ] F*ck you asshole https://www.youtube.com/watch?v=FSl-SFG2zQE
-[ ] 69 dudes! https://youtu.be/zYWT4uYOPvs?t=5
-[ ] Where's my snare? https://youtu.be/RQ9_TKayu9s?t=13
-[ ] F*ck You - SZA https://www.youtube.com/watch?v=O04nsyB8gqA&t=76s
+[ ] F\*ck You - SZA https://www.youtube.com/watch?v=O04nsyB8gqA&t=76s
 [ ] Hellloooo! https://m.youtube.com/watch?t=76
 [ ] That's not my dad! https://www.youtube.com/watch?app=desktop&v=MX03wT6bgeE
 [ ] Kunye https://youtu.be/bo_VW--tu0Q?t=3

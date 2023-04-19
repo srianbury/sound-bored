@@ -293,6 +293,11 @@ const data: Sound[] = [
     soundSrc: getSoundSrc("sixty-nine-dudes.mp3"),
     imageSrc: getImageSrc("sixty-nine-dudes.png"),
   },
+  {
+    title: "where's my snare",
+    soundSrc: getSoundSrc("wheres-my-snare.mp3"),
+    imageSrc: getImageSrc("wheres-my-snare.jpg"),
+  },
 ];
 
 export { data };
