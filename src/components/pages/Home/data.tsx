@@ -298,6 +298,16 @@ const data: Sound[] = [
     soundSrc: getSoundSrc("wheres-my-snare.mp3"),
     imageSrc: getImageSrc("wheres-my-snare.jpg"),
   },
+  {
+    title: "I'm gonna come",
+    soundSrc: getSoundSrc("im-gonna-come.mp3"),
+    imageSrc: getImageSrc("im-gonna-come.jpg"),
+  },
+  {
+    title: "Do not come",
+    soundSrc: getSoundSrc("do-not-come.mp3"),
+    imageSrc: getImageSrc("do-not-come.png"),
+  },
 ];
 
 export { data };

@@ -1,6 +1,5 @@
 [ ] Yummy https://youtu.be/Qcx3fcNlnSM?t=31
 [ ] F\*ck You - SZA https://www.youtube.com/watch?v=O04nsyB8gqA&t=76s
-[ ] Hellloooo! https://m.youtube.com/watch?t=76
 [ ] That's not my dad! https://www.youtube.com/watch?app=desktop&v=MX03wT6bgeE
 [ ] Kunye https://youtu.be/bo_VW--tu0Q?t=3
 [ ] DAAAAMMMNN! https://youtu.be/qCmMbohXn6o?t=3
@@ -13,6 +12,4 @@
 [ ] can i finish https://www.101soundboards.com/boards/36517-can-i-finish
 [ ] Either you have diarrhea, or you don’t.
 [ ] do you love him?
-[ ] I'm gonna come - donald trump
-[ ] do not come - kamala harris
 [ ] I just wanna party https://www.youtube.com/watch?v=3rhDC0yGZJE&t=166s
