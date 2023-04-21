@@ -308,6 +308,11 @@ const data: Sound[] = [
     soundSrc: getSoundSrc("do-not-come.mp3"),
     imageSrc: getImageSrc("do-not-come.png"),
   },
+  {
+    title: "I Just Wanna Party",
+    soundSrc: getSoundSrc("i-just-wanna-party.mp3"),
+    imageSrc: getImageSrc("i-just-wanna-party.jpg"),
+  },
 ];
 
 export { data };
