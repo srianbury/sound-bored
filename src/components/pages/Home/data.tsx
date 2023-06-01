@@ -313,6 +313,11 @@ const data: Sound[] = [
     soundSrc: getSoundSrc("i-just-wanna-party.mp3"),
     imageSrc: getImageSrc("i-just-wanna-party.jpg"),
   },
+  {
+    title: "It's a disgusting habit",
+    soundSrc: getSoundSrc("its-a-disgusting-habit.mp3"),
+    imageSrc: getImageSrc("its-a-disgusting-habit.jpg"),
+  },
 ];
 
 export { data };
